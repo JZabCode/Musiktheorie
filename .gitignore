@@ -1,0 +1,35 @@
+# Abhängigkeiten und Build-Ausgabe
+node_modules/
+dist/
+dist-ssr/
+
+# Lokale Umgebungsdateien (dürfen nie ins Repository)
+.env
+.env.*
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testausgaben (Playwright)
+test-results/
+playwright-report/
+
+# Betriebssystem und Editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Lokale Einstellungen von Claude Code
+.claude/settings.local.json
